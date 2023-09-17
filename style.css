@@ -1,0 +1,49 @@
+* {
+    margin: 0.5em 2em 0.5em 2em;
+    padding: 0.5rem;
+}
+
+html {
+    font-size: 1.2rem;
+    font-style: italic;
+
+}
+
+body {
+    background-color: #faebd7;
+    color: #333;
+}
+
+main {
+    font-family: monospace ;
+}
+
+h2 {
+    color: #338;
+}
+
+p {
+    color:rgb(138, 43, 226);
+}
+
+.education {
+    border: solid;
+    border-radius: 10px;
+    background-color: #CDE5FF ;
+}
+
+.languages {
+    border: solid;
+    border-radius: 20px;
+    background-color: #ACC8E5;
+}
+
+.programing {
+    border: solid;
+    border-radius: 30px;
+    background-color: #778899;
+}
+
+#second {
+    font-style: italic;
+}
