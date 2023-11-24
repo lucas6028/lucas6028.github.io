@@ -45,19 +45,19 @@
             <hr>
     
             <h2>Hobbies</h2>
+            <form>
+                <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+                <input type="submit>
+            </form>
+            <script>
+    
+                document.querySelector('form').addEventListener('submit', function greet(){
+                    let name = document.queerySeletor('#name').value;
+                    alert('hello, ' + name);
+                    e.preventDefault();
+                });
+                
+            </script>
         </main>
-        <form>
-            <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
-            <input type="submit>
-        </form>
-        <script>
-
-            document.querySelector('form').addEventListener('submit', function greet(){
-                let name = document.queerySeletor('#name').value;
-                alert('hello, ' + name);
-                e.preventDefault();
-            });
-            
-        </script>
     </body>
 </html>
