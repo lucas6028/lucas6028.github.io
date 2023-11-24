@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hao's Website</title>
         <link rel="stylesheet" href="style.css">
-        <script src="hello.js"></script>
+        <script src="[hello.js](https://github.com/lucas6028/lucas6028.github.io/blob/main/hello.js)"></script>
     </head>
     <body>
         <h1>Welcome to Hao's Website</h1>
