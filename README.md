@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hao's Website</title>
         <link rel="stylesheet" href="style.css">
+        <script src="hello.js"></script>
     </head>
     <body>
         <h1>Welcome to Hao's Website</h1>
@@ -45,19 +46,11 @@
             <hr>
     
             <h2>Hobbies</h2>
+
             <form>
                 <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
-                <input type="submit>
+                <input type="submit">
             </form>
-            <script>
-    
-                document.querySelector('form').addEventListener('submit', function greet(){
-                    let name = document.queerySeletor('#name').value;
-                    alert('hello, ' + name);
-                    e.preventDefault();
-                });
-                
-            </script>
         </main>
     </body>
 </html>
