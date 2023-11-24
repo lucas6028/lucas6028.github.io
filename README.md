@@ -10,9 +10,9 @@
     <body>
         <h1>Welcome to Hao's Website</h1>
         <p id="second">Good Morning. <strong>9/9/2023</strong></p>
-        <p id="second"; class="gray">Here's my introduction</p>
+        <p id="second" class="gray">Here's my introduction</p>
         <a href="https://www.youtube.com/channel/UCRgbU2Wq4SHE6XcqeMXzOlA">My Youtube Channel</a> 
-        <img src="Screenshot (10).png" alt="My Spirit" height="300px"; style="border-radius: 20px;">
+        <img src="Screenshot (10).png" alt="My Spirit" height="300px" style="border-radius: 20px;">
         
         <main>
             <div class="education">
