@@ -76,7 +76,7 @@ introText.id = 'intro-text';
 introText.innerHTML = `
   <h1>歡迎來到我的網站❤️</h1>
   <p>我是陳皓平 (Hao-Ping Chen), 目前就讀於台北市立大學資訊科學系二年級</p>
-  <p>contact me: U11216028@go.utaipei.edu.tw</p>
+  <p>聯絡我: U11216028@go.utaipei.edu.tw</p>
 `;
 document.body.appendChild(introText);
 
