@@ -13,20 +13,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8 # Specify your pnpm version
+
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Or your desired Node.js version
+          node-version: 18 # Specify your Node.js version
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: npm install # Or yarn install or pnpm install
+        run: pnpm install
 
       - name: Build
-        run: npm run build # Or yarn build or pnpm build
+        run: pnpm run build
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # Or your configured build.outDir
-          # cname: your-custom-domain.com # Uncomment if using a custom domain
+          publish_dir: ./dist # Vite's default build output directory
+          # cname: example.com # If you are using a custom domain
