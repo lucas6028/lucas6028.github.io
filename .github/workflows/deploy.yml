@@ -3,36 +3,42 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Or your default branch (e.g., master)
+      - main # Trigger the workflow on pushes to the main branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup pnpm
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # Choose the appropriate Node.js version
+
+      - name: Set up PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8 # Specify your pnpm version
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18 # Specify your Node.js version
-          cache: 'pnpm'
-
-      - name: Install dependencies
-        run: pnpm install
+          version: 8 # Choose pnpm version, use latest if unsure
+          run_install: true
 
       - name: Build
         run: pnpm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # Vite's default build output directory
-          # cname: example.com # If you are using a custom domain
+          path: ./dist # This is the default build output directory for Vite
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
