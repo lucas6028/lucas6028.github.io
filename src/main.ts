@@ -79,3 +79,11 @@ introText.innerHTML = `
   <p>contact me: U11216028@go.utaipei.edu.tw</p>
 `;
 document.body.appendChild(introText);
+
+// Add Footer Text to HTML
+const footerText = document.createElement('div');
+footerText.id = 'footer';
+footerText.innerHTML = `
+  <p>© 2025 Hao-Ping Chen. All rights reserved.</p>
+`;
+document.body.appendChild(footerText);
