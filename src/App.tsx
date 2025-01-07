@@ -1,6 +1,6 @@
 // import React from 'react';
 // import AnimatedBox from './components/AnimatedBox';
-import PopOutBox from './components/gsap/PopOutBox';
+// import PopOutBox from './components/gsap/PopOutBox';
 // import ThreeScene from './components/three/ThreeScene';
 import Torus from './components/three/Torus';
 
@@ -13,7 +13,7 @@ function App() {
       {/* <ThreeScene /> */}
       {/* <P5Canvas /> */}
       {/* <P5SketchWithState /> */}
-      <PopOutBox />
+      {/* <PopOutBox /> */}
     </div>
   );
 }
