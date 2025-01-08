@@ -20,9 +20,9 @@ import {
   tesla,
   shopify,
   daily_song,
-  jobit,
   tripguide,
   threejs,
+  snake,
 } from "../assets";
 
 export const navLinks = [
@@ -219,25 +219,25 @@ const projects = [
     source_code_link: "https://github.com/lucas6028/daily-song",
   },
   {
-    name: "Job IT",
+    name: "Snake Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is a classic Snake game implemented in Java using Swing for the graphical user interface. The game supports both single-player and two-player modes.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JFrame",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Graphic2D",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: snake,
+    source_code_link: "https://github.com/lucas6028/snake-game",
   },
   {
     name: "Trip Guide",
