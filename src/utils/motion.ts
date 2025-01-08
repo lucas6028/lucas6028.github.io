@@ -85,13 +85,21 @@ export const slideIn = (
   };
 };
 
-export const staggerContainer = (staggerChildren, delayChildren) => {
+interface StaggerContainerProps {
+  staggerChildren: number;
+  delayChildren?: number;
+}
+
+export const staggerContainer = ({
+  staggerChildren,
+  delayChildren = 0,
+}: StaggerContainerProps) => {
   return {
     hidden: {},
     show: {
       transition: {
         staggerChildren: staggerChildren,
-        delayChildren: delayChildren || 0,
+        delayChildren: delayChildren,
       },
     },
   };
