@@ -1,8 +1,8 @@
-const Stars = () => {
-  return (
-    <div>Stars</div>
-  )
-}
+// const Stars = () => {
+//   return (
+//     <div>Stars</div>
+//   )
+// }
 
 const StarsCanvas = () => {
   return (
