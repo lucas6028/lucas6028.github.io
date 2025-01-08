@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  daily_song,
   jobit,
   tripguide,
   threejs,
@@ -198,25 +198,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Daily Song",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Display top tracks, recommend tracks, and daily challenge. Listen to music we recommend to you.",
     tags: [
       {
-        name: "react",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "SpotifyAPI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "NextJS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: daily_song,
+    source_code_link: "https://github.com/lucas6028/daily-song",
   },
   {
     name: "Job IT",
