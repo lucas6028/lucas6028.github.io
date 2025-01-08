@@ -15,7 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
   shopify,
@@ -23,6 +22,7 @@ import {
   tripguide,
   threejs,
   snake,
+  ut,
 } from "../assets";
 
 export const navLinks = [
@@ -155,11 +155,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Banchelor's Degree",
+    company_name: "University of Taipei",
+    icon: ut,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
