@@ -40,6 +40,20 @@ const Computers = ({ isMobile }: ComputersProps) => {
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false)
 
+  useEffect(() => {
+    // Check if the user is on a mobile device
+    const mediaQuery = window.matchMedia("(max-width: 768px)")
+
+    // Set the state of isMobile
+    setIsMobile(mediaQuery.matches)
+
+    // Listen for changes in the media query
+    mediaQuery.addEventListener("change", (e) => {
+      setIsMobile(e.matches)
+    })
+    return () => mediaQuery.removeEventListener("change", () => { })
+  }, [])
+
   return (
     <Canvas
       frameloop="demand"
