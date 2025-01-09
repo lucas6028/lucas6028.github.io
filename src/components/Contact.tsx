@@ -23,7 +23,6 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setLoading(true)
-    console.log(import.meta.env.VITE_EMAILJS_USER_ID)
 
     emailJs.send(
       import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -45,10 +44,9 @@ const Contact = () => {
         message: "",
       })
     }
-    ).catch((e) => {
+    ).catch(() => {
       setLoading(false)
       alert("Ahh, something went wrong! Please try again.")
-      console.log(e)
     })
   }
   return (
