@@ -38,7 +38,7 @@ const Contact = () => {
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
       setLoading(false)
-      alert("Thank you. I will get back to you soon.")
+      alert("Thank you! I will get back to you soon.")
       setForm({
         name: "",
         email: "",
