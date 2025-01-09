@@ -32,11 +32,12 @@ import python from "./tech/python.png";
 import ut from "./company/ut.jpg";
 import ttsh from "./company/ttsh.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 import daily_song from "./daily_song.png";
 import snake from "./snake.png";
+import cg from "./computer_graphics.png";
 
 export {
   logo,
@@ -62,9 +63,7 @@ export {
   python,
   ut,
   ttsh,
-  carrent,
-  jobit,
-  tripguide,
   daily_song,
   snake,
+  cg,
 };

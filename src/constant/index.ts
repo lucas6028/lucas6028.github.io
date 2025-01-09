@@ -12,7 +12,7 @@ import {
   mongodb,
   git,
   daily_song,
-  tripguide,
+  cg,
   threejs,
   snake,
   ut,
@@ -250,25 +250,25 @@ const projects = [
     source_code_link: "https://github.com/lucas6028/snake-game",
   },
   {
-    name: "Trip Guide",
+    name: "Computer Graphics",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The project is a C++ program that uses OpenGL and the GLUI library to create a graphical user interface for rendering and manipulating 3D objects. The program sets up a window using GLUT and creates a subwindow with various controls using GLUI.",
     tags: [
       {
-        name: "nextjs",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "OpenGL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "GLUT",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cg,
+    source_code_link: "https://github.com/lucas6028/computer-graphics",
   },
 ];
 
