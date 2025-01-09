@@ -8,19 +8,19 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   daily_song,
   tripguide,
   threejs,
   snake,
   ut,
   ttsh,
+  cpp,
+  java,
+  nextjs,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -79,12 +79,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "CPP",
+    icon: cpp,
   },
   {
     name: "Node JS",
@@ -103,12 +103,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "NextJS",
+    icon: nextjs,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Python",
+    icon: python,
   },
 ];
 
