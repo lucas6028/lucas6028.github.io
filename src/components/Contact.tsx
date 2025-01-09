@@ -35,7 +35,7 @@ const Contact = () => {
         to_email: import.meta.env.VITE_EMAILJS_USER_ID,
         message: form.message,
       },
-      import.meta.env.VITE_EMAILJS_USER_ID
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
       setLoading(false)
       alert("Thank you. I will get back to you soon.")
@@ -45,9 +45,10 @@ const Contact = () => {
         message: "",
       })
     }
-    ).catch(() => {
+    ).catch((e) => {
       setLoading(false)
       alert("Ahh, something went wrong. Please try again.")
+      console.log(e)
     })
   }
   return (
