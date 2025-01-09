@@ -19,8 +19,8 @@ const Navbar = () => {
           }
         }>
           <img src={logo} alt='Logo' className="w-9 h-9 object-contain" />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Lucas &nbsp;
-            <span className='sm:block hidden'>| &nbsp; React</span>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Hao-Ping &nbsp;
+            <span className='sm:block hidden'>| &nbsp; React & Three.js</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
