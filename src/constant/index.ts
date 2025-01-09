@@ -158,7 +158,10 @@ const experiences = [
     icon: ttsh,
     iconBg: "#ffffff",
     date: "Sep 2020 - Jun 2023",
-    points: ["Got a good grade in the C++ programming language."],
+    points: [
+      "Director of the school's baseball club, responsible for organizing and leading club activities.",
+      "Got a good grade in the C++ programming language.",
+    ],
   },
   {
     title: "Banchelor",
