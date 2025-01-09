@@ -158,7 +158,7 @@ const experiences = [
     title: "Banchelor's Degree",
     company_name: "University of Taipei",
     icon: ut,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "Sep 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -171,7 +171,8 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "This guy can cook!",
+    testimonial:
+      "TIGHT! Tight, tight, YEAH! Oh, blue, yellow, pink. Whatever, man. Just keep bringing me that. This guy can cook!",
     name: "Tuco Salamanca",
     designation: "Owner",
     company: "Cantina",
