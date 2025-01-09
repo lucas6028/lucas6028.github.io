@@ -252,7 +252,7 @@ const projects = [
   {
     name: "Computer Graphics",
     description:
-      "The project is a C++ program that uses OpenGL and the GLUI library to create a graphical user interface for rendering and manipulating 3D objects. The program sets up a window using GLUT and creates a subwindow with various controls using GLUI.",
+      "The project is a C++ program that uses OpenGL and the GLUI library to create a graphical user interface for rendering and manipulating 3D objects.",
     tags: [
       {
         name: "C++",
