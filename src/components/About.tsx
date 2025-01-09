@@ -37,7 +37,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px]
-        max-w-3xl leading[30px]">
+        max-w-3xl leading-[30px]">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         Ut accusantium quibusdam veniam ratione quasi magnam minus consectetur,
         recusandae asperiores amet eius quidem.
