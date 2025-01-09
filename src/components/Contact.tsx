@@ -23,6 +23,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setLoading(true)
+    console.log(import.meta.env.VITE_EMAILJS_USER_ID)
 
     emailJs.send(
       import.meta.env.VITE_EMAILJS_SERVICE_ID,
