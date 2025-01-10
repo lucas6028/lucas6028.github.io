@@ -2,6 +2,8 @@
 
 This project is a personal portfolio website built using React, TypeScript, and Vite. It showcases various projects, skills, and experiences.
 
+![alt text](https://github.com/lucas6028/lucas6028.github.io/blob/main/src/assets/preview.png)
+
 ## Features
 
 - **React**: A JavaScript library for building user interfaces.
