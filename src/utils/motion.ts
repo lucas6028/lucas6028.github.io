@@ -1,3 +1,4 @@
+// Function to create a text animation variant with a delay
 export const textVariant = (delay = 0) => {
   return {
     hidden: {
@@ -16,6 +17,7 @@ export const textVariant = (delay = 0) => {
   };
 };
 
+// Function to create a fade-in animation variant
 export const fadeIn = (
   direction: string,
   type: string,
@@ -42,6 +44,7 @@ export const fadeIn = (
   };
 };
 
+// Function to create a zoom-in animation variant
 export const zoomIn = (delay: number, duration: number) => {
   return {
     hidden: {
@@ -61,6 +64,7 @@ export const zoomIn = (delay: number, duration: number) => {
   };
 };
 
+// Function to create a slide-in animation variant
 export const slideIn = (
   direction: string,
   type: string,
@@ -85,11 +89,13 @@ export const slideIn = (
   };
 };
 
+// Interface for stagger container properties
 interface StaggerContainerProps {
-  staggerChildren: number;
-  delayChildren?: number;
+  staggerChildren: number; // Time (in seconds) between the start of each child's animation
+  delayChildren?: number; // Optional delay (in seconds) before starting the staggered animations
 }
 
+// Function to create a stagger container animation variant
 export const staggerContainer = ({
   staggerChildren,
   delayChildren = 0,
