@@ -154,3 +154,11 @@ export default tseslint.config({
   },
 });
 ```
+
+## Contribution
+
+- **Javascript Mastery**: `https://github.com/adrianhajdin/project_3D_developer_portfolio`
+- **Gaming Desktop PC**: `https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66`
+- **Stylized planet**: `https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70`
+- **Hao-Ping Logo**: `https://logo.com`
+- **Email Receiving**: `https://www.emailjs.com/`
