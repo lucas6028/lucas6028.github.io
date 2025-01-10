@@ -181,7 +181,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "TIGHT! Tight, tight, YEAH! Oh, blue, yellow, pink. Whatever, man. Just keep bringing me that. This guy can cook!",
+      "Tight, tight, tight! Tight! Yeah! Blue, yellow, pink. Whatever, man. Just keep bringing me that. Come on. And what did I say, man? This guy can cook! You're all right, man.",
     name: "Tuco Salamanca",
     designation: "Owner",
     company: "Cantina",
@@ -190,11 +190,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "And a man, a man provides. And he does it even when he's not appreciated, or respected, or even loved. He simply bears up and he does it. Because he's a man",
+    name: "Gustavo Fring",
+    designation: "co-founder",
+    company: "Los Pollos Hermanos",
+    image: "https://images.news18.com/ibnlive/uploads/2021/10/gus-fring-.jpg",
   },
   {
     testimonial:
