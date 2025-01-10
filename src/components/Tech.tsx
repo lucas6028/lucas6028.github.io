@@ -1,6 +1,6 @@
-import { BallCanvas } from "./canvas"
-import { SectionWrapper } from "../hoc"
-import { technologies } from "../constant"
+import { BallCanvas } from "./canvas";
+import { SectionWrapper } from "../hoc";
+import { technologies } from "../constant";
 
 const Tech = () => {
   return (
@@ -11,8 +11,8 @@ const Tech = () => {
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-const TechSection = SectionWrapper(Tech, "tech")
-export default TechSection
+const TechSection = SectionWrapper(Tech, "tech");
+export default TechSection;

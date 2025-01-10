@@ -1,14 +1,14 @@
-import { Suspense, useEffect, useState } from "react"
-import { Canvas } from "@react-three/fiber"
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
-import CanvasLoader from "../Loader"
+import { Suspense, useEffect, useState } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import CanvasLoader from "../Loader";
 
 interface ComputersProps {
   isMobile: boolean;
 }
 
 const Computers = ({ isMobile }: ComputersProps) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf")
+  const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
@@ -34,25 +34,25 @@ const Computers = ({ isMobile }: ComputersProps) => {
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
-  )
-}
+  );
+};
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     // Check if the user is on a mobile device
-    const mediaQuery = window.matchMedia("(max-width: 768px)")
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     // Set the state of isMobile
-    setIsMobile(mediaQuery.matches)
+    setIsMobile(mediaQuery.matches);
 
     // Listen for changes in the media query
     mediaQuery.addEventListener("change", (e) => {
-      setIsMobile(e.matches)
-    })
-    return () => mediaQuery.removeEventListener("change", () => { })
-  }, [])
+      setIsMobile(e.matches);
+    });
+    return () => mediaQuery.removeEventListener("change", () => {});
+  }, []);
 
   return (
     <Canvas
@@ -66,12 +66,13 @@ const ComputersCanvas = () => {
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2} />
+          minPolarAngle={Math.PI / 2}
+        />
         <Computers isMobile={isMobile} />
       </Suspense>
       <Preload all />
     </Canvas>
-  )
-}
+  );
+};
 
-export default ComputersCanvas
+export default ComputersCanvas;

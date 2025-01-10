@@ -22,7 +22,7 @@ export const fadeIn = (
   direction: string,
   type: string,
   delay: number,
-  duration: number
+  duration: number,
 ) => {
   return {
     hidden: {
@@ -69,7 +69,7 @@ export const slideIn = (
   direction: string,
   type: string,
   delay: number,
-  duration: number
+  duration: number,
 ) => {
   return {
     hidden: {
