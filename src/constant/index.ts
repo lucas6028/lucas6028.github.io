@@ -198,11 +198,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "We got new players in town. Now we don’t know who they are or where they came from, but they possess an extremely high skill set. Albuquerque might just have a new kingpin.",
+    name: "Hank Schrader",
+    designation: "Agent",
+    company: "Drug Enforcement Administration",
+    image: "https://pm1.aminoapps.com/6279/9af864c60c2dd92dafd70955bea91985f8cb736f_128.jpg",
   },
 ];
 
