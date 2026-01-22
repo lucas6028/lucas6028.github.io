@@ -202,7 +202,7 @@ const testimonials = [
     name: "Hank Schrader",
     designation: "Agent",
     company: "Drug Enforcement Administration",
-    image: "https://pm1.aminoapps.com/6279/9af864c60c2dd92dafd70955bea91985f8cb736f_128.jpg",
+    image: "https://pyxis.nymag.com/v1/imgs/6e3/083/9e8bb81160d2aaf23e9d5b0e34e1cc881a-30-hank-breaking-bad.rsquare.w330.jpg",
   },
 ];
 
